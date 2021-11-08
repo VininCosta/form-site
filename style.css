@@ -1,0 +1,78 @@
+body {
+    font-family: arial;
+    background-image: linear-gradient(to right, rgb(52, 179, 62), rgb(3, 104, 25));
+}
+
+.box {
+    color: white;
+    position: absolute;
+    background-color: rgba(0,0,0,0.6);
+    padding: 15px;
+    border-radius: 15px;
+    width: 30%;
+    height: 100vh;
+}
+
+fieldset {
+    color: 3px solid rgb(6, 85, 26);
+}
+
+legend {
+    border: 1px solid rgb(6, 100, 21);
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(3, 102, 11);
+    border-radius: 10px;
+}    
+    
+.inputBox {
+    position: relative;
+}
+
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.labelInput {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5px;
+}
+
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput {
+    top: -20px;
+    font-size: 12px;
+    color: #aaa;
+}
+
+#data_nascimento {
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+#submit {
+    background-image: linear-gradient(to right, rgb(52, 179, 62), rgb(3, 104, 25));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#submmit:hover {
+    background-image: linear-gradient(to right, rgb(6, 100, 21), rgb(3, 102, 11));
+}
