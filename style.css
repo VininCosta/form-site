@@ -9,8 +9,9 @@ body {
     background-color: rgba(0,0,0,0.6);
     padding: 15px;
     border-radius: 15px;
-    width: 30%;
-    height: 100vh;
+    width: 40%;
+    height: 1630px;
+    margin-left: 360px;
 }
 
 fieldset {
@@ -76,3 +77,20 @@ legend {
 #submmit:hover {
     background-image: linear-gradient(to right, rgb(6, 100, 21), rgb(3, 102, 11));
 }
+
+img {
+    margin-left: auto;
+    margin-top: auto;
+    width: 300px;
+    height: 150px;
+}
+
+.teste {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    z-index: 1000;
+    left: 1rem;
+    top: 1rem;
+}
+
