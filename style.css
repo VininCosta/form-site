@@ -1,3 +1,4 @@
+
 body {
     font-family: arial;
     background-image: linear-gradient(to right, rgb(52, 179, 62), rgb(3, 104, 25));
@@ -10,7 +11,7 @@ body {
     padding: 15px;
     border-radius: 15px;
     width: 40%;
-    height: 1630px;
+    height: 2060px;
     margin-left: 360px;
 }
 
@@ -75,6 +76,7 @@ legend {
 }
 
 #submmit:hover {
+    opacity: 0.5; 
     background-image: linear-gradient(to right, rgb(6, 100, 21), rgb(3, 102, 11));
 }
 
@@ -94,3 +96,19 @@ img {
     top: 1rem;
 }
 
+footer {
+        margin-top: 2060px;
+        margin-left: 390px;
+        text-transform: uppercase;
+        color: #fff;
+}
+
+@media only screen and (max-width: 479px) {
+    .box {
+        margin-left: 3px;
+        width: 360px;
+    }
+    footer {
+        margin-left: 75px;
+    }
+}
